@@ -1,0 +1,2 @@
+IRateService = com.coasterreviewer.model.services.RateServiceImpl
+ISearchService = com.coasterreviewer.model.services.SearchServiceImpl
