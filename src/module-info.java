@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module CoasterReviewer {
+	requires junit;
+}

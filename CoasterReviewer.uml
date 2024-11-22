@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_TnkUYJpvEe-icbtQAJpDJg" name="CoasterReviewer">
+    <eAnnotations xmi:id="_TqxZYJpvEe-icbtQAJpDJg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_TqyAcJpvEe-icbtQAJpDJg" source="codegen">
+        <details xmi:id="_TqyAcZpvEe-icbtQAJpDJg" key="codegenDirectory" value="/CoasterReviewer/src"/>
+        <details xmi:id="_UCEfEJpvEe-icbtQAJpDJg" key="AssociatedSourceCode" value="/CoasterReviewer/src/test/com/coasterreviewer/model/domain/UserTest.java;2143982227/1;/CoasterReviewer/src/com/coasterreviewer/model/domain/CoasterManufacturer.java;1998362833/1;/CoasterReviewer/src/com/coasterreviewer/model/domain/CoasterReview.java;4034749596/1;/CoasterReviewer/src/com/coasterreviewer/model/domain/SearchQuery.java;1485610735/1;/CoasterReviewer/src/com/coasterreviewer/model/domain/SearchResult.java;3882559983/1;/CoasterReviewer/src/com/coasterreviewer/model/domain/User.java;2733899788/1;/CoasterReviewer/src/test/com/coasterreviewer/model/domain/CoasterManufacturerTest.java;3078166514/1;/CoasterReviewer/src/test/com/coasterreviewer/model/domain/CoasterReviewTest.java;3990233774/1;/CoasterReviewer/src/test/com/coasterreviewer/model/domain/CoasterTest.java;3195710095/1;/CoasterReviewer/src/test/com/coasterreviewer/model/domain/SearchQueryTest.java;1119839584/1;/CoasterReviewer/src/test/com/coasterreviewer/model/domain/SearchResultTest.java;3952505483/1;/CoasterReviewer/src/com/coasterreviewer/model/domain/Coaster.java;2448365139/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_T2m18JpvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_T2m18ZpvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndAJpvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndAZpvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndAppvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndA5pvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndBJpvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndBZpvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_T2ndBppvEe-icbtQAJpDJg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_T17ggJpvEe-icbtQAJpDJg" name="test">
+      <packagedElement xmi:type="uml:Package" xmi:id="_T18HkJpvEe-icbtQAJpDJg" name="com">
+        <packagedElement xmi:type="uml:Package" xmi:id="_T18HkZpvEe-icbtQAJpDJg" name="coasterreviewer">
+          <packagedElement xmi:type="uml:Package" xmi:id="_T18HkppvEe-icbtQAJpDJg" name="model">
+            <packagedElement xmi:type="uml:Package" xmi:id="_T1_K4JpvEe-icbtQAJpDJg" name="domain">
+              <packagedElement xmi:type="uml:Class" xmi:id="_T2jLkJpvEe-icbtQAJpDJg" name="UserTest">
+                <generalization xmi:id="_T8cYMJpvEe-icbtQAJpDJg" general="_T8Pj4JpvEe-icbtQAJpDJg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8kUAJpvEe-icbtQAJpDJg" name="testEqualsUser" specification="_T2ln0JpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>User u1 = new User(&quot;Kcee&quot;, &quot;Landon&quot;, 1);&#xD;
+		User u2 = new User(&quot;Kcee&quot;, &quot;Landon&quot;, 1);&#xD;
+		assertTrue(u1.equals(u2));&#xD;
+		u2.setUserId(0);&#xD;
+		assertFalse(u1.equals(u2));&#xD;
+		u2.setUserId(1);&#xD;
+		u2.setLastName(&quot;Lando&quot;);&#xD;
+		assertFalse(u1.equals(u2));&#xD;
+		u2.setLastName(&quot;Landon&quot;);&#xD;
+		u2.setFirstName(&quot;kcee&quot;);&#xD;
+		assertFalse(u1.equals(u2));&#xD;
+		System.out.println(&quot;test for equals() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8k7EJpvEe-icbtQAJpDJg" name="testValidate" specification="_T2mO4JpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>User u = new User(null, &quot;Landon&quot;, 1);&#xD;
+		assertFalse(u.validate());&#xD;
+		u.setLastName(null);&#xD;
+		assertFalse(u.validate());&#xD;
+		u.setUserId(-1);&#xD;
+		assertFalse(u.validate());&#xD;
+		u.setFirstName(&quot;&quot;);&#xD;
+		u.setLastName(&quot;&quot;);&#xD;
+		u.setUserId(0);&#xD;
+		assertTrue(u.validate());&#xD;
+		System.out.println(&quot;test for validate() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_T2ln0JpvEe-icbtQAJpDJg" name="testEqualsUser" method="_T8kUAJpvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T2mO4JpvEe-icbtQAJpDJg" name="testValidate" method="_T8k7EJpvEe-icbtQAJpDJg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_T237sJpvEe-icbtQAJpDJg" name="CoasterManufacturerTest">
+                <generalization xmi:id="_T8c_QJpvEe-icbtQAJpDJg" general="_T8Pj4JpvEe-icbtQAJpDJg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-Z5pvEe-icbtQAJpDJg" name="testEqualsCoasterManufacturer" specification="_T24iwJpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>CoasterManufacturer cm1 = new CoasterManufacturer(&quot;RMC&quot;, 1);&#xD;
+		CoasterManufacturer cm2 = new CoasterManufacturer(&quot;RMC&quot;, 1);&#xD;
+		assertTrue(cm1.equals(cm2));&#xD;
+		cm2.setManufacturerId(2);&#xD;
+		assertFalse(cm1.equals(cm2));&#xD;
+		System.out.println(&quot;test for equals() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-aJpvEe-icbtQAJpDJg" name="testValidate" specification="_T24iwZpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>CoasterManufacturer cm = new CoasterManufacturer(&quot;asdf&quot;, 1);&#xD;
+		assertTrue(cm.validate());&#xD;
+		cm.setName(null);&#xD;
+		assertFalse(cm.validate());&#xD;
+		cm.setName(&quot;asdf&quot;);&#xD;
+		cm.setManufacturerId(-1);&#xD;
+		assertFalse(cm.validate());&#xD;
+		System.out.println(&quot;test for validate() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_T24iwJpvEe-icbtQAJpDJg" name="testEqualsCoasterManufacturer" method="_T8n-Z5pvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T24iwZpvEe-icbtQAJpDJg" name="testValidate" method="_T8n-aJpvEe-icbtQAJpDJg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_T24iwppvEe-icbtQAJpDJg" name="CoasterReviewTest">
+                <generalization xmi:id="_T8c_QZpvEe-icbtQAJpDJg" general="_T8Pj4JpvEe-icbtQAJpDJg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-aZpvEe-icbtQAJpDJg" name="testEqualsCoasterReview" specification="_T25J0JpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>User u1 = new User(&quot;Kcee&quot;, &quot;Landon&quot;, 1);&#xD;
+		User u2 = new User(&quot;Kcee&quot;, &quot;Brandon&quot;, 2);&#xD;
+		CoasterReview c1 = new CoasterReview((byte)1, 1, u1);&#xD;
+		CoasterReview c2 = new CoasterReview((byte)1, 1, u1);&#xD;
+		assertTrue(c1.equals(c2));&#xD;
+		c2.setCreatedByUser(u2);&#xD;
+		assertFalse(c1.equals(c2));&#xD;
+		c2.setCreatedByUser(u1);&#xD;
+		c2.setReviewId(2);&#xD;
+		assertFalse(c1.equals(c2));&#xD;
+		System.out.println(&quot;test for equals() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-appvEe-icbtQAJpDJg" name="testValidate" specification="_T25J0ZpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>User u = new User(&quot;Kcee&quot;, &quot;Landon&quot;, 1);&#xD;
+		CoasterReview c = new CoasterReview((byte)5, 1, u);&#xD;
+		assertTrue(c.validate());&#xD;
+		c.setRating((byte)-1);&#xD;
+		assertFalse(c.validate());&#xD;
+		c.setRating((byte)5);&#xD;
+		c.setReviewId(-1);&#xD;
+		assertFalse(c.validate());&#xD;
+		c.setReviewId(1);&#xD;
+		c.setTitle(&quot;&quot;);&#xD;
+		assertFalse(c.validate());&#xD;
+		c.setTitle(null);&#xD;
+		c.setReviewBody(&quot;&quot;);&#xD;
+		assertFalse(c.validate());&#xD;
+		System.out.println(&quot;test for validate() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_T25J0JpvEe-icbtQAJpDJg" name="testEqualsCoasterReview" method="_T8n-aZpvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T25J0ZpvEe-icbtQAJpDJg" name="testValidate" method="_T8n-appvEe-icbtQAJpDJg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_T25w4JpvEe-icbtQAJpDJg" name="CoasterTest">
+                <generalization xmi:id="_T8dmUJpvEe-icbtQAJpDJg" general="_T8Pj4JpvEe-icbtQAJpDJg"/>
+                <ownedAttribute xmi:id="_T8h3wppvEe-icbtQAJpDJg" name="cm" visibility="private" isLeaf="true" isStatic="true" type="_T2oEEJpvEe-icbtQAJpDJg" isReadOnly="true" association="_T8td85pvEe-icbtQAJpDJg">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_T8h3w5pvEe-icbtQAJpDJg" value="new CoasterManufacturer(&quot;RMC&quot;, 1)"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8olcJpvEe-icbtQAJpDJg" name="testCalculateAverageRating" specification="_T26X8JpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>Coaster c = new Coaster(&quot;Kcee Coaster&quot;, cm, 1999, 1);&#xD;
+		User u = new User(&quot;Kcee&quot;, &quot;Landon&quot;, 1);&#xD;
+		List&lt;CoasterReview> reviews = new LinkedList&lt;CoasterReview>();&#xD;
+		c.setReviews(reviews);&#xD;
+		assertTrue(c.calculateAverageRating() == 0.00);&#xD;
+		reviews.add(new CoasterReview((byte) 5, 1, u));&#xD;
+		reviews.add(new CoasterReview((byte) 3, 2, u));&#xD;
+		c.setReviews(reviews);&#xD;
+		System.out.println(&quot;The average rating is : &quot; + c.calculateAverageRating());&#xD;
+		assertTrue(c.calculateAverageRating() == 4.00);&#xD;
+		System.out.println(&quot;test for calculateAverageRating() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8olcZpvEe-icbtQAJpDJg" name="testEqualsCoaster" specification="_T26X8ZpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>Coaster c1 = new Coaster(&quot;Kcee Coaster&quot;, cm, 1999, 1);&#xD;
+		Coaster c2 = new Coaster(&quot;Kcee Coaster&quot;, cm, 1999, 1);&#xD;
+		assertTrue(c1.equals(c2));&#xD;
+		c2.setName(&quot;Kcee Coaster 2&quot;);&#xD;
+		assertTrue(c1.equals(c2));&#xD;
+		c2.setName(&quot;Kcee Coaster&quot;);&#xD;
+		c2.setYearCreated(2100);&#xD;
+		assertTrue(c1.equals(c2));&#xD;
+		c2.setYearCreated(1999);&#xD;
+		c2.setCoasterId(2);&#xD;
+		assertFalse(c1.equals(c2));&#xD;
+		System.out.println(&quot;test for equals() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8olcppvEe-icbtQAJpDJg" name="testValidate" specification="_T26X8ppvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>Coaster c = new Coaster(&quot;abcd&quot;, cm, 100, 1);&#xD;
+		assertTrue(c.validate());&#xD;
+		c.setCoasterId(-1);&#xD;
+		assertFalse(c.validate());&#xD;
+		c.setCoasterId(1);&#xD;
+		c.setName(null);&#xD;
+		assertFalse(c.validate());&#xD;
+		c.setName(&quot;abcd&quot;);&#xD;
+		c.setManufacturer(null);&#xD;
+		assertFalse(c.validate());&#xD;
+		c.setManufacturer(cm);&#xD;
+		c.setYearCreated(-1);&#xD;
+		assertFalse(c.validate());&#xD;
+		System.out.println(&quot;test for validate() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_T26X8JpvEe-icbtQAJpDJg" name="testCalculateAverageRating" method="_T8olcJpvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T26X8ZpvEe-icbtQAJpDJg" name="testEqualsCoaster" method="_T8olcZpvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T26X8ppvEe-icbtQAJpDJg" name="testValidate" method="_T8olcppvEe-icbtQAJpDJg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_T26_AJpvEe-icbtQAJpDJg" name="SearchQueryTest">
+                <generalization xmi:id="_T8dmUZpvEe-icbtQAJpDJg" general="_T8Pj4JpvEe-icbtQAJpDJg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8olc5pvEe-icbtQAJpDJg" name="testEqualsSearchQuery" specification="_T26_AZpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>SearchQuery s1 = new SearchQuery(&quot;KCEE&quot;);&#xD;
+		SearchQuery s2 = new SearchQuery(&quot;kcee&quot;);&#xD;
+		assertTrue(s1.equals(s2));&#xD;
+		s2.setQuery(&quot;abcd&quot;);&#xD;
+		assertFalse(s1.equals(s2));&#xD;
+		s2.setQuery(&quot;KCEE&quot;);&#xD;
+		assertTrue(s1.equals(s2));&#xD;
+		System.out.println(&quot;test for equals() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8oldJpvEe-icbtQAJpDJg" name="testValidate" specification="_T27mEJpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>SearchQuery s1 = new SearchQuery();&#xD;
+		assertTrue(s1.validate());&#xD;
+		s1.setQuery(null);&#xD;
+		assertFalse(s1.validate());&#xD;
+		System.out.println(&quot;test for validate() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_T26_AZpvEe-icbtQAJpDJg" name="testEqualsSearchQuery" method="_T8olc5pvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T27mEJpvEe-icbtQAJpDJg" name="testValidate" method="_T8oldJpvEe-icbtQAJpDJg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_T27mEZpvEe-icbtQAJpDJg" name="SearchResultTest">
+                <generalization xmi:id="_T8dmUppvEe-icbtQAJpDJg" general="_T8Pj4JpvEe-icbtQAJpDJg"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8oldZpvEe-icbtQAJpDJg" name="testAddCoaster" specification="_T28NIJpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>SearchResult s = new SearchResult();&#xD;
+		CoasterManufacturer m = new CoasterManufacturer(&quot;RMC&quot;, 1);&#xD;
+		s.addCoaster(new Coaster(&quot;abcd&quot;, m, 100, 1));&#xD;
+		assertTrue(s.getCoasterList().size() == 1);&#xD;
+		System.out.println(&quot;test for addCoaster() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8oldppvEe-icbtQAJpDJg" name="testEqualsSearchResult" specification="_T28NIZpvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>SearchResult searchOne = new SearchResult();&#xD;
+		SearchResult searchTwo = new SearchResult();&#xD;
+		CoasterManufacturer m = new CoasterManufacturer(&quot;RMC&quot;, 1);&#xD;
+		searchOne.addCoaster(new Coaster(&quot;Kcee Coaster&quot;, m, 1992, 1));&#xD;
+		searchTwo.addCoaster(new Coaster(&quot;Kcee Coaster mark 2&quot;, m, 1999, 1));&#xD;
+		assertTrue(searchOne.equals(searchTwo));&#xD;
+		System.out.println(&quot;test for equals() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8old5pvEe-icbtQAJpDJg" name="testValidate" specification="_T28NIppvEe-icbtQAJpDJg">
+                  <language>java</language>
+                  <body>SearchResult s = new SearchResult();&#xD;
+		assertTrue(s.validate());&#xD;
+		System.out.println(&quot;test for validate() has passed&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_T28NIJpvEe-icbtQAJpDJg" name="testAddCoaster" method="_T8oldZpvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T28NIZpvEe-icbtQAJpDJg" name="testEqualsSearchResult" method="_T8oldppvEe-icbtQAJpDJg"/>
+                <ownedOperation xmi:id="_T28NIppvEe-icbtQAJpDJg" name="testValidate" method="_T8old5pvEe-icbtQAJpDJg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_T8td85pvEe-icbtQAJpDJg" name="" memberEnd="_T8uFAJpvEe-icbtQAJpDJg _T8h3wppvEe-icbtQAJpDJg">
+                <ownedEnd xmi:id="_T8uFAJpvEe-icbtQAJpDJg" name="" type="_T25w4JpvEe-icbtQAJpDJg" association="_T8td85pvEe-icbtQAJpDJg"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_T19VsJpvEe-icbtQAJpDJg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_T19VsZpvEe-icbtQAJpDJg" name="coasterreviewer">
+        <packagedElement xmi:type="uml:Package" xmi:id="_T198wJpvEe-icbtQAJpDJg" name="model">
+          <packagedElement xmi:type="uml:Package" xmi:id="_T198wZpvEe-icbtQAJpDJg" name="domain">
+            <packagedElement xmi:type="uml:Class" xmi:id="_T2oEEJpvEe-icbtQAJpDJg" name="CoasterManufacturer">
+              <ownedComment xmi:id="_T8pzkJpvEe-icbtQAJpDJg">
+                <body>This is the CoasterManufacturer class containing information&#xD;
+regarding a Coaster's manufacturer.&#xD;
+&#xD;
+@author Kcee Landon&#xD;
+@version 1.0&#xD;
+@since 2024-11-03</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_T8e0cJpvEe-icbtQAJpDJg" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8e0cZpvEe-icbtQAJpDJg" name="dateEstablished" type="_T8RZEJpvEe-icbtQAJpDJg" association="_T8pzkZpvEe-icbtQAJpDJg"/>
+              <ownedAttribute xmi:id="_T8fbgJpvEe-icbtQAJpDJg" name="manufacturerId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8liIJpvEe-icbtQAJpDJg" name="CoasterManufacturer" specification="_T2orIJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8liIZpvEe-icbtQAJpDJg" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8liIppvEe-icbtQAJpDJg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8liI5pvEe-icbtQAJpDJg" type="_T2oEEJpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setName(name);&#xD;
+		this.setDateEstablished(null);&#xD;
+		this.setManufacturerId(id);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8liJJpvEe-icbtQAJpDJg" name="equals" specification="_T8SAIJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8liJZpvEe-icbtQAJpDJg" name="other" type="_T2oEEJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8liJppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getManufacturerId() == other.getManufacturerId();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8liJ5pvEe-icbtQAJpDJg" name="validate" specification="_T2p5QJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8liKJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this.getName() == null) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		if (this.getManufacturerId() &lt; 0) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_T2orIJpvEe-icbtQAJpDJg" name="CoasterManufacturer" method="_T8liIJpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T2pSMppvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T2pSM5pvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T2pSMJpvEe-icbtQAJpDJg" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T2pSMZpvEe-icbtQAJpDJg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T2pSNJpvEe-icbtQAJpDJg" type="_T2oEEJpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T2p5QJpvEe-icbtQAJpDJg" name="validate" method="_T8liJ5pvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T2p5QZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8SAIJpvEe-icbtQAJpDJg" name="equals" method="_T8liJJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8SAIZpvEe-icbtQAJpDJg" name="other" type="_T2oEEJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8SAIppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_T2rHYJpvEe-icbtQAJpDJg" name="CoasterReview">
+              <ownedComment xmi:id="_T8qaoZpvEe-icbtQAJpDJg">
+                <body>This is the CoasterReview class containing information&#xD;
+about a CoasterReview.&#xD;
+&#xD;
+@author Kcee Landon&#xD;
+@version 1.0&#xD;
+@since 2024-11-03</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_T8fbgZpvEe-icbtQAJpDJg" name="title">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8fbgppvEe-icbtQAJpDJg" name="reviewBody">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8gCkJpvEe-icbtQAJpDJg" name="rating">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8gCkZpvEe-icbtQAJpDJg" name="reviewId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8gCkppvEe-icbtQAJpDJg" name="createdByUser" type="_T2zqQJpvEe-icbtQAJpDJg" association="_T8qaoppvEe-icbtQAJpDJg"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mJMJpvEe-icbtQAJpDJg" name="CoasterReview" specification="_T8TOQJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mJMZpvEe-icbtQAJpDJg" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mJMppvEe-icbtQAJpDJg" name="reviewId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mJM5pvEe-icbtQAJpDJg" name="createdByUser" type="_T2zqQJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8mJNJpvEe-icbtQAJpDJg" type="_T2rHYJpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setTitle(null);&#xD;
+		this.setReviewBody(null);&#xD;
+		this.setRating(rating);&#xD;
+		this.setReviewId(reviewId);&#xD;
+		this.setCreatedByUser(createdByUser);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mJNZpvEe-icbtQAJpDJg" name="CoasterReview" specification="_T8T1UppvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mJNppvEe-icbtQAJpDJg" name="title">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mJN5pvEe-icbtQAJpDJg" name="reviewBody">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mJOJpvEe-icbtQAJpDJg" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mJOZpvEe-icbtQAJpDJg" name="reviewId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mJOppvEe-icbtQAJpDJg" name="createdByUser" type="_T2zqQJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8mJO5pvEe-icbtQAJpDJg" type="_T2rHYJpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setTitle(title);&#xD;
+		this.setReviewBody(reviewBody);&#xD;
+		this.setRating(rating);&#xD;
+		this.setReviewId(reviewId);&#xD;
+		this.setCreatedByUser(createdByUser);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mJPJpvEe-icbtQAJpDJg" name="equals" specification="_T8UcYJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mJPZpvEe-icbtQAJpDJg" name="other" type="_T2rHYJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8mJPppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getReviewId() == other.getReviewId() &amp;&amp; this.getCreatedByUser().equals(other.getCreatedByUser());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mJP5pvEe-icbtQAJpDJg" name="validate" specification="_T2s8kJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mJQJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this.getRating() &lt; 0 || this.getReviewId() &lt; 0) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		if (this.getTitle() == null &amp;&amp; this.getReviewBody() != null) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		if (this.getReviewBody() == null &amp;&amp; this.getTitle() != null) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_T2s8kJpvEe-icbtQAJpDJg" name="validate" method="_T8mJP5pvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T2s8kZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8TOQJpvEe-icbtQAJpDJg" name="CoasterReview" method="_T8mJMJpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T8TORJpvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T8T1UJpvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T8TOQZpvEe-icbtQAJpDJg" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8TOQppvEe-icbtQAJpDJg" name="reviewId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8TOQ5pvEe-icbtQAJpDJg" name="createdByUser" type="_T2zqQJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8T1UZpvEe-icbtQAJpDJg" type="_T2rHYJpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8T1UppvEe-icbtQAJpDJg" name="CoasterReview" method="_T8mJNZpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T8T1WJpvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T8T1WZpvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T8T1U5pvEe-icbtQAJpDJg" name="title">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8T1VJpvEe-icbtQAJpDJg" name="reviewBody">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8T1VZpvEe-icbtQAJpDJg" name="rating">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8T1VppvEe-icbtQAJpDJg" name="reviewId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8T1V5pvEe-icbtQAJpDJg" name="createdByUser" type="_T2zqQJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8T1WppvEe-icbtQAJpDJg" type="_T2rHYJpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8UcYJpvEe-icbtQAJpDJg" name="equals" method="_T8mJPJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8UcYZpvEe-icbtQAJpDJg" name="other" type="_T2rHYJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8UcYppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_T2vY0JpvEe-icbtQAJpDJg" name="SearchQuery">
+              <ownedComment xmi:id="_T8qapJpvEe-icbtQAJpDJg">
+                <body>This is the SearchQuery class containing information&#xD;
+to encapsulate and model a SearchQuery.&#xD;
+&#xD;
+@author Kcee Landon&#xD;
+@version 1.0&#xD;
+@since 2024-11-03</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_T8gCk5pvEe-icbtQAJpDJg" name="query">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mJQZpvEe-icbtQAJpDJg" name="SearchQuery" specification="_T2v_4JpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mJQppvEe-icbtQAJpDJg" type="_T2vY0JpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setQuery(&quot;&quot;);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mwQJpvEe-icbtQAJpDJg" name="SearchQuery" specification="_T2wm8JpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mwQZpvEe-icbtQAJpDJg" name="query">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8mwQppvEe-icbtQAJpDJg" type="_T2vY0JpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setQuery(query);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mwQ5pvEe-icbtQAJpDJg" name="equals" specification="_T8VDcJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mwRJpvEe-icbtQAJpDJg" name="other" type="_T2vY0JpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8mwRZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getQuery().toLowerCase().equals(other.getQuery().toLowerCase());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mwRppvEe-icbtQAJpDJg" name="validate" specification="_T2wm9ZpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mwR5pvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getQuery() != null;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_T2v_4JpvEe-icbtQAJpDJg" name="SearchQuery" method="_T8mJQZpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T2v_4ZpvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T2v_4ppvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T2v_45pvEe-icbtQAJpDJg" type="_T2vY0JpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T2wm8JpvEe-icbtQAJpDJg" name="SearchQuery" method="_T8mwQJpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T2wm8ppvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T2wm85pvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T2wm8ZpvEe-icbtQAJpDJg" name="query">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T2wm9JpvEe-icbtQAJpDJg" type="_T2vY0JpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T2wm9ZpvEe-icbtQAJpDJg" name="validate" method="_T8mwRppvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T2wm9ppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8VDcJpvEe-icbtQAJpDJg" name="equals" method="_T8mwQ5pvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8VDcZpvEe-icbtQAJpDJg" name="other" type="_T2vY0JpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8VqgJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_T2x1EJpvEe-icbtQAJpDJg" name="SearchResult">
+              <ownedComment xmi:id="_T8qapZpvEe-icbtQAJpDJg">
+                <body>This is the SearchResult class containing&#xD;
+information regarding a Search Result.&#xD;
+&#xD;
+@author Kcee Landon&#xD;
+@version 1.0&#xD;
+@since 2024-11-03</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_T8gpoJpvEe-icbtQAJpDJg" name="coasterList" type="_T280MJpvEe-icbtQAJpDJg" isOrdered="true" association="_T8sP0JpvEe-icbtQAJpDJg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T8gpoZpvEe-icbtQAJpDJg" value="*"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mwSJpvEe-icbtQAJpDJg" name="SearchResult" specification="_T2x1EZpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mwSZpvEe-icbtQAJpDJg" type="_T2x1EJpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setCoasterList(new LinkedList&lt;Coaster>());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mwSppvEe-icbtQAJpDJg" name="addCoaster" specification="_T8VqgZpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mwS5pvEe-icbtQAJpDJg" name="c" type="_T280MJpvEe-icbtQAJpDJg"/>
+                <language>java</language>
+                <body>this.coasterList.add(c);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8mwTJpvEe-icbtQAJpDJg" name="equals" specification="_T8WRkJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8mwTZpvEe-icbtQAJpDJg" name="other" type="_T2x1EJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8nXUJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>HashSet&lt;Integer> thisSet = new HashSet&lt;Integer>();&#xD;
+		HashSet&lt;Integer> otherSet = new HashSet&lt;Integer>();&#xD;
+		for (Coaster c : this.getCoasterList()) {&#xD;
+			thisSet.add(c.getCoasterId());&#xD;
+		}&#xD;
+		for (Coaster o : other.getCoasterList()) {&#xD;
+			otherSet.add(o.getCoasterId());&#xD;
+		}&#xD;
+&#xD;
+		return thisSet.equals(otherSet);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8nXUZpvEe-icbtQAJpDJg" name="validate" specification="_T2ycIppvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8nXUppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getCoasterList() != null;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_T2x1EZpvEe-icbtQAJpDJg" name="SearchResult" method="_T8mwSJpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T2x1EppvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T2ycIJpvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T2ycIZpvEe-icbtQAJpDJg" type="_T2x1EJpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T2ycIppvEe-icbtQAJpDJg" name="validate" method="_T8nXUZpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T2ycI5pvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8VqgZpvEe-icbtQAJpDJg" name="addCoaster" method="_T8mwSppvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8VqgppvEe-icbtQAJpDJg" name="c" type="_T280MJpvEe-icbtQAJpDJg"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8WRkJpvEe-icbtQAJpDJg" name="equals" method="_T8mwTJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8WRkZpvEe-icbtQAJpDJg" name="other" type="_T2x1EJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8WRkppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_T2zqQJpvEe-icbtQAJpDJg" name="User">
+              <ownedComment xmi:id="_T8qapppvEe-icbtQAJpDJg">
+                <body>This is the User class containing information&#xD;
+modeling a User in the CoasterReviewer app.&#xD;
+&#xD;
+@author Kcee Landon&#xD;
+@version 1.0&#xD;
+@since 2024-11-03</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_T8gpoppvEe-icbtQAJpDJg" name="firstName" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8hQsJpvEe-icbtQAJpDJg" name="lastName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8hQsZpvEe-icbtQAJpDJg" name="age" isReadOnly="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8hQsppvEe-icbtQAJpDJg" name="id" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8h3wJpvEe-icbtQAJpDJg" name="reviews" type="_T2rHYJpvEe-icbtQAJpDJg" isOrdered="true" association="_T8td8JpvEe-icbtQAJpDJg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T8h3wZpvEe-icbtQAJpDJg" value="*"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8nXU5pvEe-icbtQAJpDJg" name="User" specification="_T204YJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8nXVJpvEe-icbtQAJpDJg" name="firstName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8nXVZpvEe-icbtQAJpDJg" name="lastName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8nXVppvEe-icbtQAJpDJg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8nXV5pvEe-icbtQAJpDJg" type="_T2zqQJpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.setFirstName(firstName);&#xD;
+		this.setLastName(lastName);&#xD;
+		this.setUserId(id);&#xD;
+		this.setReviews(new LinkedList&lt;CoasterReview>());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8nXWJpvEe-icbtQAJpDJg" name="setFirstName" specification="_T21fcJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8nXWZpvEe-icbtQAJpDJg" name="firstName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.firstName = firstName;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8nXWppvEe-icbtQAJpDJg" name="setAge" specification="_T21fcppvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8nXW5pvEe-icbtQAJpDJg" name="age">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.age = age;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8nXXJpvEe-icbtQAJpDJg" name="getUserId" specification="_T21fdJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8nXXZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.id;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-YJpvEe-icbtQAJpDJg" name="setUserId" specification="_T22GgZpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8n-YZpvEe-icbtQAJpDJg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>this.id = id;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-YppvEe-icbtQAJpDJg" name="equals" specification="_T8W4oJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8n-Y5pvEe-icbtQAJpDJg" name="u" type="_T2zqQJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8n-ZJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getUserId() == u.getUserId() &amp;&amp; this.getFirstName().equals(u.getFirstName()) &amp;&amp; this.getLastName().equals(u.getLastName());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8n-ZZpvEe-icbtQAJpDJg" name="validate" specification="_T22tkJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8n-ZppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this.getFirstName() == null || this.getLastName() == null || this.getUserId() &lt; 0) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_T204YJpvEe-icbtQAJpDJg" name="User" method="_T8nXU5pvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T204ZJpvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T204ZZpvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedComment xmi:id="_T8qap5pvEe-icbtQAJpDJg">
+                  <body>@param firstName This is the String value to initialize the firstName field to.&#xD;
+	 * @param lastName This is the String value to initialize the lastName field to.&#xD;
+	 * @param id This is the int value to initialize the id field to.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T204YZpvEe-icbtQAJpDJg" name="firstName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T204YppvEe-icbtQAJpDJg" name="lastName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T204Y5pvEe-icbtQAJpDJg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T204ZppvEe-icbtQAJpDJg" type="_T2zqQJpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T21fcJpvEe-icbtQAJpDJg" name="setFirstName" method="_T8nXWJpvEe-icbtQAJpDJg">
+                <ownedComment xmi:id="_T8qaqJpvEe-icbtQAJpDJg">
+                  <body>@param firstName This is the String value to set the firstName data field to.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T21fcZpvEe-icbtQAJpDJg" name="firstName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T21fcppvEe-icbtQAJpDJg" name="setAge" method="_T8nXWppvEe-icbtQAJpDJg">
+                <ownedComment xmi:id="_T8rBsJpvEe-icbtQAJpDJg">
+                  <body>@param age This is the byte value to set the age data field to.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T21fc5pvEe-icbtQAJpDJg" name="age">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T21fdJpvEe-icbtQAJpDJg" name="getUserId" method="_T8nXXJpvEe-icbtQAJpDJg">
+                <ownedComment xmi:id="_T8rBsZpvEe-icbtQAJpDJg">
+                  <body>@return This returns the int value of the id data field.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T22GgJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T22GgZpvEe-icbtQAJpDJg" name="setUserId" method="_T8n-YJpvEe-icbtQAJpDJg">
+                <ownedComment xmi:id="_T8rBsppvEe-icbtQAJpDJg">
+                  <body>@param id This is the int value to set the id data field to.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T22GgppvEe-icbtQAJpDJg" name="id">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T22tkJpvEe-icbtQAJpDJg" name="validate" method="_T8n-ZZpvEe-icbtQAJpDJg">
+                <ownedComment xmi:id="_T8rBtJpvEe-icbtQAJpDJg">
+                  <body>@return This returns a boolean value dependent on if the data fields have been initialized correctly.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T22tkZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8W4oJpvEe-icbtQAJpDJg" name="equals" method="_T8n-YppvEe-icbtQAJpDJg">
+                <ownedComment xmi:id="_T8rBs5pvEe-icbtQAJpDJg">
+                  <body>@param u This is the other user being compared to this User object.&#xD;
+	 * @return This returns a boolean value dependent on if this User object equals the other User object.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_T8W4oZpvEe-icbtQAJpDJg" name="u" type="_T2zqQJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8W4oppvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_T280MJpvEe-icbtQAJpDJg" name="Coaster">
+              <ownedComment xmi:id="_T8rBtZpvEe-icbtQAJpDJg">
+                <body>This is a domain class modeling a Coaster. It contains&#xD;
+useful methods for gathering information surrounding&#xD;
+a coaster.&#xD;
+&#xD;
+@author Kcee Landon&#xD;
+@version 1.0&#xD;
+@since 2024-11-03&#xD;
+ *</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_T8ie0JpvEe-icbtQAJpDJg" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8ie0ZpvEe-icbtQAJpDJg" name="description">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8ie0ppvEe-icbtQAJpDJg" name="manufacturer" type="_T2oEEJpvEe-icbtQAJpDJg" association="_T8rBtppvEe-icbtQAJpDJg"/>
+              <ownedAttribute xmi:id="_T8ie05pvEe-icbtQAJpDJg" name="yearCreated">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8jF4JpvEe-icbtQAJpDJg" name="coasterId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8jF4ZpvEe-icbtQAJpDJg" name="imagePath">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_T8jF4ppvEe-icbtQAJpDJg" name="reviews" type="_T2rHYJpvEe-icbtQAJpDJg" isOrdered="true" association="_T8uFAppvEe-icbtQAJpDJg">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T8jF45pvEe-icbtQAJpDJg" value="*"/>
+              </ownedAttribute>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8pMgJpvEe-icbtQAJpDJg" name="Coaster" specification="_T8ZU4JpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8pMgZpvEe-icbtQAJpDJg" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8pMgppvEe-icbtQAJpDJg" name="manufacturer" type="_T2oEEJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8pMg5pvEe-icbtQAJpDJg" name="yearCreated">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8pMhJpvEe-icbtQAJpDJg" name="coasterId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8pMhZpvEe-icbtQAJpDJg" type="_T280MJpvEe-icbtQAJpDJg" direction="return"/>
+                <language>java</language>
+                <body>this.name = name;&#xD;
+		this.description = null;&#xD;
+		this.manufacturer = manufacturer;&#xD;
+		this.yearCreated = yearCreated;&#xD;
+		this.coasterId = coasterId;&#xD;
+		this.imagePath = null;&#xD;
+		this.reviews = new LinkedList&lt;CoasterReview>();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8pMhppvEe-icbtQAJpDJg" name="calculateAverageRating" specification="_T2-CUJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8pMh5pvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this.getReviews().size() == 0) {&#xD;
+			return 0.00;&#xD;
+		}&#xD;
+		int counter = 0;&#xD;
+		int sum = 0;&#xD;
+		for (CoasterReview r : this.getReviews()) {&#xD;
+			counter++;&#xD;
+			sum += r.getRating();&#xD;
+		}&#xD;
+		return Math.round((((double) sum / counter) * 100.0) / 100.0);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8pMiJpvEe-icbtQAJpDJg" name="equals" specification="_T8Z795pvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8pMiZpvEe-icbtQAJpDJg" name="other" type="_T280MJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8pMippvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>return this.getCoasterId() == other.getCoasterId();&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8pMi5pvEe-icbtQAJpDJg" name="validate" specification="_T2-pYJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8pMjJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>if (this.getName() == null || this.getManufacturer() == null || this.getYearCreated() &lt; 0 || this.getCoasterId() &lt; 0) {&#xD;
+			return false;&#xD;
+		}&#xD;
+		return true;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_T2-CUJpvEe-icbtQAJpDJg" name="calculateAverageRating" method="_T8pMhppvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T2-CUZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T2-pYJpvEe-icbtQAJpDJg" name="validate" method="_T8pMi5pvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T2-pYZpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8ZU4JpvEe-icbtQAJpDJg" name="Coaster" method="_T8pMgJpvEe-icbtQAJpDJg">
+                <eAnnotations xmi:id="_T8Z79JpvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_T8Z79ZpvEe-icbtQAJpDJg" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_T8Z78JpvEe-icbtQAJpDJg" name="name">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8Z78ZpvEe-icbtQAJpDJg" name="manufacturer" type="_T2oEEJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8Z78ppvEe-icbtQAJpDJg" name="yearCreated">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8Z785pvEe-icbtQAJpDJg" name="coasterId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_T8Z79ppvEe-icbtQAJpDJg" type="_T280MJpvEe-icbtQAJpDJg" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_T8Z795pvEe-icbtQAJpDJg" name="equals" method="_T8pMiJpvEe-icbtQAJpDJg">
+                <ownedParameter xmi:id="_T8Z7-JpvEe-icbtQAJpDJg" name="other" type="_T280MJpvEe-icbtQAJpDJg"/>
+                <ownedParameter xmi:id="_T8ajAJpvEe-icbtQAJpDJg" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_T8pzkZpvEe-icbtQAJpDJg" name="" memberEnd="_T8e0cZpvEe-icbtQAJpDJg _T8qaoJpvEe-icbtQAJpDJg">
+              <ownedEnd xmi:id="_T8qaoJpvEe-icbtQAJpDJg" name="" type="_T2oEEJpvEe-icbtQAJpDJg" association="_T8pzkZpvEe-icbtQAJpDJg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_T8qaoppvEe-icbtQAJpDJg" name="" memberEnd="_T8gCkppvEe-icbtQAJpDJg _T8qao5pvEe-icbtQAJpDJg">
+              <ownedEnd xmi:id="_T8qao5pvEe-icbtQAJpDJg" name="" type="_T2rHYJpvEe-icbtQAJpDJg" association="_T8qaoppvEe-icbtQAJpDJg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_T8rBtppvEe-icbtQAJpDJg" name="" memberEnd="_T8ie0ppvEe-icbtQAJpDJg _T8rBt5pvEe-icbtQAJpDJg">
+              <ownedEnd xmi:id="_T8rBt5pvEe-icbtQAJpDJg" name="" type="_T280MJpvEe-icbtQAJpDJg" association="_T8rBtppvEe-icbtQAJpDJg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_T8sP0JpvEe-icbtQAJpDJg" name="" memberEnd="_T8sP0ZpvEe-icbtQAJpDJg _T8gpoJpvEe-icbtQAJpDJg">
+              <ownedEnd xmi:id="_T8sP0ZpvEe-icbtQAJpDJg" name="" type="_T2x1EJpvEe-icbtQAJpDJg" association="_T8sP0JpvEe-icbtQAJpDJg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_T8td8JpvEe-icbtQAJpDJg" name="" memberEnd="_T8td8ZpvEe-icbtQAJpDJg _T8h3wJpvEe-icbtQAJpDJg">
+              <ownedEnd xmi:id="_T8td8ZpvEe-icbtQAJpDJg" name="" type="_T2zqQJpvEe-icbtQAJpDJg" association="_T8td8JpvEe-icbtQAJpDJg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_T8uFAppvEe-icbtQAJpDJg" name="" memberEnd="_T8uFA5pvEe-icbtQAJpDJg _T8jF4ppvEe-icbtQAJpDJg">
+              <ownedEnd xmi:id="_T8uFA5pvEe-icbtQAJpDJg" name="" type="_T280MJpvEe-icbtQAJpDJg" association="_T8uFAppvEe-icbtQAJpDJg"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_T198wppvEe-icbtQAJpDJg" name="junit">
+      <packagedElement xmi:type="uml:Package" xmi:id="_T198w5pvEe-icbtQAJpDJg" name="framework">
+        <packagedElement xmi:type="uml:Class" xmi:id="_T8Pj4JpvEe-icbtQAJpDJg" name="TestCase"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_T1_x8JpvEe-icbtQAJpDJg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_T2AZAJpvEe-icbtQAJpDJg" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_T8RZEJpvEe-icbtQAJpDJg" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_T2LYIJpvEe-icbtQAJpDJg" name="util"/>
+    </packagedElement>
+    <profileApplication xmi:id="_TqyngJpvEe-icbtQAJpDJg">
+      <eAnnotations xmi:id="_Tq1DwJpvEe-icbtQAJpDJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Tq3gAJpvEe-icbtQAJpDJg" base_Package="_TnkUYJpvEe-icbtQAJpDJg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_T8QyAJpvEe-icbtQAJpDJg" base_Element="_T8Pj4JpvEe-icbtQAJpDJg"/>
+  <UMLLabProfile:Reference xmi:id="_T8RZEZpvEe-icbtQAJpDJg" base_Element="_T8RZEJpvEe-icbtQAJpDJg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_T8hQs5pvEe-icbtQAJpDJg" base_Element="_T8hQsppvEe-icbtQAJpDJg"/>
+  <UMLLabProfile:Reference xmi:id="_T8s24JpvEe-icbtQAJpDJg" base_Element="_T8sP0JpvEe-icbtQAJpDJg"/>
+  <UMLLabProfile:Reference xmi:id="_T8td8ppvEe-icbtQAJpDJg" base_Element="_T8td8JpvEe-icbtQAJpDJg"/>
+  <UMLLabProfile:Reference xmi:id="_T8uFAZpvEe-icbtQAJpDJg" base_Element="_T8td85pvEe-icbtQAJpDJg"/>
+  <UMLLabProfile:Reference xmi:id="_T8usEJpvEe-icbtQAJpDJg" base_Element="_T8uFAppvEe-icbtQAJpDJg"/>
+</xmi:XMI>
