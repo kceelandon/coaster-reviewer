@@ -5,8 +5,21 @@ import com.coasterreviewer.model.domain.*;
 import com.coasterreviewer.model.services.*;
 
 public class SearchManager extends CoasterManager {
+	private static SearchManager instance;
 	private SearchResult result;
 	private SearchQuery currentQuery;
+	
+	private SearchManager() {
+		result = new SearchResult();
+		currentQuery = new SearchQuery();
+	}
+	
+	public static SearchManager getInstance() {
+		if (instance == null) {
+			instance = new SearchManager();
+		}
+		return instance;
+	}
 
 	/**
 	 * @param dataPath directory containing data of all coasters to be searched through
@@ -14,7 +27,6 @@ public class SearchManager extends CoasterManager {
 	 */
 	public void initializeSearch(String dataPath) throws Exception {
 		ISearchService iss = (ISearchService) getService(ISearchService.NAME);
-		result = new SearchResult();
 		List<Coaster> coasters = iss.loadAllCoasters(dataPath);
 		result.setCoasterList(coasters);
 	}
@@ -24,10 +36,10 @@ public class SearchManager extends CoasterManager {
 	 * @param input The input from the user that will be typed into the search bar.
 	 * @throws Exception
 	 */
-	public void updateSearch(String input) throws Exception {
+	public void updateSearch(String input, List<Coaster> coasterList) throws Exception {
 		ISearchService iss = (ISearchService)getService(ISearchService.NAME);
 		currentQuery = iss.updateQuery(input, currentQuery);
-		result = iss.getSearchResults(currentQuery, this.result.getCoasterList());
+		result = iss.getSearchResults(currentQuery, coasterList);
 	}
 	
 	/**
@@ -35,6 +47,15 @@ public class SearchManager extends CoasterManager {
 	 */
 	public SearchResult loadResults() {
 		return this.result;
+	}
+	
+	/**
+	 * This method is for testing purposes and resets the instance to its original
+	 * state upon instantiation.
+	 */
+	public void reset() {
+		result = new SearchResult();
+		currentQuery = new SearchQuery();
 	}
 	
 }
