@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project name="CoasterReviewer" basedir=".">
+	<property name="src.dir" value="${basedir}/src"/>
+	<property name="lib.dir" value="${basedir}/lib"/>
+	<property name="bin.dir" value="${basedir}/bin"/>
+	<property name="build.dir" value="${basedir}/build"/>
+	<property name="config.dir" value="${basedir}/config"/>
+	
+	<target name="clean" description="deletes and creates the build directory">
+		<delete dir="${build.dir}"/>
+		<mkdir dir="${build.dir}"/>
+	</target>
+	
+	<target name="buildjar" depends="clean">
+		<jar jarfile="${build.dir}/CoasterReviewer.jar">
+			<fileset dir="${basedir}">
+				<include name="config/*"/>
+			</fileset>
+			<fileset dir="${bin.dir}">
+				<include name="**/*.class"/>
+			</fileset>
+			<manifest>
+				<attribute name="Main-Class" value="com.coasterreviewer.view.searchjframe.MainFrame"/>
+			</manifest>
+		</jar>
+		<copy todir="${build.dir}">
+			<fileset dir="${basedir}">
+				<include name="config*/**/*"/>
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="testjar" depends="buildjar">
+		<java jar="${build.dir}/CoasterReviewer.jar" fork="yes" dir=".">
+		</java>
+	</target>
+</project>

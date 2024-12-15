@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ToDckJpvEe-icbtQAJpDJg">
+  <modelElement href="../../../../../CoasterReviewer.uml#_TnkUYJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VsmuQJpvEe-icbtQAJpDJg" sourceAnchor="109.0,0.0" targetAnchor="211.0,156.0" target="_VuK0iJpvEe-icbtQAJpDJg" source="_Vstb8JpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8td85pvEe-icbtQAJpDJg"/>
+    <stereotypes xmi:id="_VsmuQZpvEe-icbtQAJpDJg" name="Reference">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8uFAZpvEe-icbtQAJpDJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VsmuQppvEe-icbtQAJpDJg" text="">
+      <visualProperties xmi:id="_WDgyYJpvEe-icbtQAJpDJg" position="-18.5,-11.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VsmuQ5pvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8uFAJpvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDgLUZpvEe-icbtQAJpDJg" position="-20.5,-50.0"/>
+      <visibility xmi:id="_VsmuRJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VsmuRZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VsmuRppvEe-icbtQAJpDJg" aggregationKind="NONE" name="cm" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8h3wppvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDgyYZpvEe-icbtQAJpDJg" position="10.0,4.999999999999972"/>
+      <visibility xmi:id="_VsmuR5pvEe-icbtQAJpDJg" label="-"/>
+      <cardinality xmi:id="_VsmuSJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VuBqkJpvEe-icbtQAJpDJg" targetItem="_VuK0iJpvEe-icbtQAJpDJg" sourceItem="_VtvWsJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VuK0gJpvEe-icbtQAJpDJg" target="_VuK0iJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8pzkZpvEe-icbtQAJpDJg"/>
+    <nameVisual xmi:id="_VuK0gZpvEe-icbtQAJpDJg" text=""/>
+    <sourceRole xmi:id="_VuK0gppvEe-icbtQAJpDJg" aggregationKind="NONE" name="dateEstablished" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8e0cZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0g5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0hJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VuK0hZpvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8qaoJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0hppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0h5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Vu5NQJpvEe-icbtQAJpDJg" targetItem="_Vu83qJpvEe-icbtQAJpDJg" sourceItem="_VulEMJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vu8QkJpvEe-icbtQAJpDJg" sourceAnchor="376.0,126.0" targetAnchor="0.0,97.0" target="_Vu83qJpvEe-icbtQAJpDJg" source="_VxNhcJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8td8JpvEe-icbtQAJpDJg"/>
+    <stereotypes xmi:id="_Vu8QkZpvEe-icbtQAJpDJg" name="Reference">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8td8ppvEe-icbtQAJpDJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vu8QkppvEe-icbtQAJpDJg" text="">
+      <visualProperties xmi:id="_WDjOoZpvEe-icbtQAJpDJg" position="-41.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Vu8Qk5pvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8td8ZpvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDjOoJpvEe-icbtQAJpDJg" position="5.0,-48.5"/>
+      <visibility xmi:id="_Vu8QlJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu8QlZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vu8QlppvEe-icbtQAJpDJg" aggregationKind="NONE" name="reviews" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8h3wJpvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDjOoppvEe-icbtQAJpDJg" position="-58.5,3.5"/>
+      <visibility xmi:id="_Vu8Ql5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu8QmJpvEe-icbtQAJpDJg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vu83oJpvEe-icbtQAJpDJg" sourceAnchor="188.0,251.0" targetAnchor="337.0,194.0" target="_Vu83qJpvEe-icbtQAJpDJg" source="_VxNhcJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qaoppvEe-icbtQAJpDJg"/>
+    <bendpoints xmi:id="_WDfkQJpvEe-icbtQAJpDJg" sourceY="83" targetX="-741" targetY="111"/>
+    <bendpoints xmi:id="_WDgLUJpvEe-icbtQAJpDJg" sourceX="741" sourceY="83" targetY="111"/>
+    <nameVisual xmi:id="_Vu83oZpvEe-icbtQAJpDJg" text="">
+      <visualProperties xmi:id="_WDkcwJpvEe-icbtQAJpDJg" position="339.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Vu83oppvEe-icbtQAJpDJg" aggregationKind="NONE" name="createdByUser" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gCkppvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDj1sJpvEe-icbtQAJpDJg" position="7.0,5.5"/>
+      <visibility xmi:id="_Vu83o5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83pJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vu83pZpvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8qao5pvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDkcwZpvEe-icbtQAJpDJg" position="5.5,5.0"/>
+      <visibility xmi:id="_Vu83pppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83p5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VvqCQJpvEe-icbtQAJpDJg" targetItem="_VvrQYJpvEe-icbtQAJpDJg" sourceItem="_VvN9YJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VwYbAJpvEe-icbtQAJpDJg" targetItem="_VwaQOZpvEe-icbtQAJpDJg" sourceItem="_Vv7vEJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VwaQMJpvEe-icbtQAJpDJg" sourceAnchor="266.0,56.0" targetAnchor="0.0,106.0" target="_VzZSx5pvEe-icbtQAJpDJg" source="_VwaQOZpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8sP0JpvEe-icbtQAJpDJg"/>
+    <stereotypes xmi:id="_VwaQMZpvEe-icbtQAJpDJg" name="Reference">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8s24JpvEe-icbtQAJpDJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VwaQMppvEe-icbtQAJpDJg" text="">
+      <visualProperties xmi:id="_WDinkJpvEe-icbtQAJpDJg" position="-42.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VwaQM5pvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8sP0ZpvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDiAgJpvEe-icbtQAJpDJg" position="5.0,-48.5"/>
+      <visibility xmi:id="_VwaQNJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQNZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VwaQNppvEe-icbtQAJpDJg" aggregationKind="NONE" name="coasterList" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gpoJpvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDinkZpvEe-icbtQAJpDJg" position="-76.0,3.5"/>
+      <visibility xmi:id="_VwaQN5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQOJpvEe-icbtQAJpDJg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxKeIJpvEe-icbtQAJpDJg" targetItem="_VxNhcJpvEe-icbtQAJpDJg" sourceItem="_Vwqu4JpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxLFMZpvEe-icbtQAJpDJg" targetItem="_VxNhiJpvEe-icbtQAJpDJg" sourceItem="_VxLFMJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxLsQZpvEe-icbtQAJpDJg" targetItem="_VxNhl5pvEe-icbtQAJpDJg" sourceItem="_VxLsQJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxLsQ5pvEe-icbtQAJpDJg" targetItem="_VxNhnZpvEe-icbtQAJpDJg" sourceItem="_VxLsQppvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxMTUZpvEe-icbtQAJpDJg" targetItem="_VxNho5pvEe-icbtQAJpDJg" sourceItem="_VxMTUJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxMTU5pvEe-icbtQAJpDJg" targetItem="_VxNhqJpvEe-icbtQAJpDJg" sourceItem="_VxMTUppvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxMTVZpvEe-icbtQAJpDJg" targetItem="_VxNhrppvEe-icbtQAJpDJg" sourceItem="_VxMTVJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VxM6YZpvEe-icbtQAJpDJg" targetItem="_VxNhs5pvEe-icbtQAJpDJg" sourceItem="_VxM6YJpvEe-icbtQAJpDJg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VxspoJpvEe-icbtQAJpDJg" sourceAnchor="0.0,78.0" targetAnchor="612.0,106.0" target="_VzZSx5pvEe-icbtQAJpDJg" source="_VuK0iJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBtppvEe-icbtQAJpDJg"/>
+    <nameVisual xmi:id="_VzYEoJpvEe-icbtQAJpDJg" text="">
+      <visualProperties xmi:id="_WDhZcZpvEe-icbtQAJpDJg" position="-46.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VzYEoZpvEe-icbtQAJpDJg" aggregationKind="NONE" name="manufacturer" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8ie0ppvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDhZcJpvEe-icbtQAJpDJg" position="-91.5,3.5"/>
+      <visibility xmi:id="_VzZSwJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzYrsJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VzYEoppvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8rBt5pvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDhZcppvEe-icbtQAJpDJg" position="5.0,-48.5000000000001"/>
+      <visibility xmi:id="_VzZSwppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZSwZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VyZNMJpvEe-icbtQAJpDJg" sourceAnchor="306.0,212.0" targetAnchor="337.0,0.0" target="_Vu83qJpvEe-icbtQAJpDJg" source="_VzZSx5pvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8uFAppvEe-icbtQAJpDJg"/>
+    <stereotypes xmi:id="_VzYEpppvEe-icbtQAJpDJg" name="Reference">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8usEJpvEe-icbtQAJpDJg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VzYEo5pvEe-icbtQAJpDJg" text="">
+      <visualProperties xmi:id="_WDlD0JpvEe-icbtQAJpDJg" position="-18.5,-6.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VzYEpJpvEe-icbtQAJpDJg" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8uFA5pvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDkcwppvEe-icbtQAJpDJg" position="5.5,5.5"/>
+      <visibility xmi:id="_VzZSxJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZSw5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VzYEpZpvEe-icbtQAJpDJg" aggregationKind="NONE" name="reviews" navigable="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8jF4ppvEe-icbtQAJpDJg"/>
+      <visualProperties xmi:id="_WDlD0ZpvEe-icbtQAJpDJg" position="-66.0,-50.0"/>
+      <visibility xmi:id="_VzZSxppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZSxZpvEe-icbtQAJpDJg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_VzW2gJpvEe-icbtQAJpDJg" targetItem="_VzZSx5pvEe-icbtQAJpDJg" sourceItem="_VzFwwJpvEe-icbtQAJpDJg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VtvWsJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VuBqkJpvEe-icbtQAJpDJg" text="This is the CoasterManufacturer class containing information&#xD;&#xA;regarding a Coaster's manufacturer.&#xD;&#xA;&#xD;&#xA;@author Kcee Landon&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2024-11-03" item="_VuK0iJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8pzkJpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VulEMJpvEe-icbtQAJpDJg" sourceConnectionVisual="_Vu5NQJpvEe-icbtQAJpDJg" text="This is the CoasterReview class containing information&#xD;&#xA;about a CoasterReview.&#xD;&#xA;&#xD;&#xA;@author Kcee Landon&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2024-11-03" item="_Vu83qJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qaoZpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VvN9YJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VvqCQJpvEe-icbtQAJpDJg" text="This is the SearchQuery class containing information&#xD;&#xA;to encapsulate and model a SearchQuery.&#xD;&#xA;&#xD;&#xA;@author Kcee Landon&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2024-11-03" item="_VvrQYJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qapJpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Vv7vEJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VwYbAJpvEe-icbtQAJpDJg" text="This is the SearchResult class containing&#xD;&#xA;information regarding a Search Result.&#xD;&#xA;&#xD;&#xA;@author Kcee Landon&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2024-11-03" item="_VwaQOZpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qapZpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Vwqu4JpvEe-icbtQAJpDJg" sourceConnectionVisual="_VxKeIJpvEe-icbtQAJpDJg" text="This is the User class containing information&#xD;&#xA;modeling a User in the CoasterReviewer app.&#xD;&#xA;&#xD;&#xA;@author Kcee Landon&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2024-11-03" item="_VxNhcJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qapppvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxLFMJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VxLFMZpvEe-icbtQAJpDJg" text="@param firstName This is the String value to initialize the firstName field to.&#xD;&#xA;&#x9; * @param lastName This is the String value to initialize the lastName field to.&#xD;&#xA;&#x9; * @param id This is the int value to initialize the id field to." item="_VxNhiJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qap5pvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxLsQJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VxLsQZpvEe-icbtQAJpDJg" text="@param firstName This is the String value to set the firstName data field to." item="_VxNhl5pvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8qaqJpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxLsQppvEe-icbtQAJpDJg" sourceConnectionVisual="_VxLsQ5pvEe-icbtQAJpDJg" text="@param age This is the byte value to set the age data field to." item="_VxNhnZpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBsJpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxMTUJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VxMTUZpvEe-icbtQAJpDJg" text="@return This returns the int value of the id data field." item="_VxNho5pvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBsZpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxMTUppvEe-icbtQAJpDJg" sourceConnectionVisual="_VxMTU5pvEe-icbtQAJpDJg" text="@param id This is the int value to set the id data field to." item="_VxNhqJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBsppvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxMTVJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VxMTVZpvEe-icbtQAJpDJg" text="@return This returns a boolean value dependent on if the data fields have been initialized correctly." item="_VxNhrppvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBtJpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VxM6YJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VxM6YZpvEe-icbtQAJpDJg" text="@param u This is the other user being compared to this User object.&#xD;&#xA;&#x9; * @return This returns a boolean value dependent on if this User object equals the other User object." item="_VxNhs5pvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBs5pvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_VzFwwJpvEe-icbtQAJpDJg" sourceConnectionVisual="_VzW2gJpvEe-icbtQAJpDJg" text="This is a domain class modeling a Coaster. It contains&#xD;&#xA;useful methods for gathering information surrounding&#xD;&#xA;a coaster.&#xD;&#xA;&#xD;&#xA;@author Kcee Landon&#xD;&#xA;@version 1.0&#xD;&#xA;@since 2024-11-03&#xD;&#xA; *" item="_VzZSx5pvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T8rBtZpvEe-icbtQAJpDJg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VrmosJpvEe-icbtQAJpDJg" name="UserTest">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T2jLkJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VrmosZpvEe-icbtQAJpDJg" position="266.0,1010.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VrmosppvEe-icbtQAJpDJg" label="+"/>
+    <operations xmi:id="_Vrmos5pvEe-icbtQAJpDJg" name="testEqualsUser">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2ln0JpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VrmotJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VrmotZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VrmotppvEe-icbtQAJpDJg" name="testValidate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2mO4JpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vrmot5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VrmouJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VsG_AJpvEe-icbtQAJpDJg" name="CoasterManufacturerTest">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T237sJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VsG_AZpvEe-icbtQAJpDJg" position="625.0,815.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VsG_AppvEe-icbtQAJpDJg" label="+"/>
+    <operations xmi:id="_VsG_A5pvEe-icbtQAJpDJg" name="testEqualsCoasterManufacturer">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T24iwJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VsG_BJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VsG_BZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VsG_BppvEe-icbtQAJpDJg" name="testValidate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T24iwZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VsG_B5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VsG_CJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VsTMQJpvEe-icbtQAJpDJg" name="CoasterReviewTest">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T24iwppvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VsTMQZpvEe-icbtQAJpDJg" position="928.0,815.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VsTMQppvEe-icbtQAJpDJg" label="+"/>
+    <operations xmi:id="_VsTMQ5pvEe-icbtQAJpDJg" name="testEqualsCoasterReview">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T25J0JpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VsTMRJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VsTMRZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VsTMRppvEe-icbtQAJpDJg" name="testValidate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T25J0ZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VsTMR5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VsTMSJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vstb8JpvEe-icbtQAJpDJg" name="CoasterTest" associationsOut="_VsmuQJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T25w4JpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_Vstb8ZpvEe-icbtQAJpDJg" position="1571.0,403.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vstb8ppvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_Vstb85pvEe-icbtQAJpDJg" defaultValue="new CoasterManufacturer(&quot;RMC&quot;, 1)" name="cm" staticAttribute="true">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8h3wppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vstb9JpvEe-icbtQAJpDJg" label="-"/>
+      <cardinality xmi:id="_Vstb9ZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_Vstb9ppvEe-icbtQAJpDJg" name="CoasterManufacturer">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2oEEJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vstb95pvEe-icbtQAJpDJg" name="testCalculateAverageRating">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T26X8JpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vstb-JpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vstb-ZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Vstb-ppvEe-icbtQAJpDJg" name="testEqualsCoaster">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T26X8ZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vstb-5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vstb_JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Vstb_ZpvEe-icbtQAJpDJg" name="testValidate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T26X8ppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vstb_ppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vstb_5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vs5pMJpvEe-icbtQAJpDJg" name="SearchQueryTest">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T26_AJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_Vs5pMZpvEe-icbtQAJpDJg" position="11.0,1010.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vs5pMppvEe-icbtQAJpDJg" label="+"/>
+    <operations xmi:id="_Vs5pM5pvEe-icbtQAJpDJg" name="testEqualsSearchQuery">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T26_AZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vs6QQJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vs6QQZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Vs6QQppvEe-icbtQAJpDJg" name="testValidate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T27mEJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vs6QQ5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vs6QRJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VtVHAJpvEe-icbtQAJpDJg" name="SearchResultTest">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T27mEZpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VtVHAZpvEe-icbtQAJpDJg" position="361.0,819.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VtVHAppvEe-icbtQAJpDJg" label="+"/>
+    <operations xmi:id="_VtVHA5pvEe-icbtQAJpDJg" name="testAddCoaster">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T28NIJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VtVHBJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VtVHBZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VtVHBppvEe-icbtQAJpDJg" name="testEqualsSearchResult">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T28NIZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VtVHB5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VtVHCJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VtVHCZpvEe-icbtQAJpDJg" name="testValidate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T28NIppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VtVHCppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VtVHC5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VuK0iJpvEe-icbtQAJpDJg" comments="_VtvWsJpvEe-icbtQAJpDJg" targetConnectionVisual="_VuBqkJpvEe-icbtQAJpDJg" name="CoasterManufacturer" associationsIn="_VsmuQJpvEe-icbtQAJpDJg _VuK0gJpvEe-icbtQAJpDJg" associationsOut="_VxspoJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T2oEEJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VuK0iZpvEe-icbtQAJpDJg" position="1469.0,59.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VuK0ippvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_VuK0i5pvEe-icbtQAJpDJg" name="name">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8e0cJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0jJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0jZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VuK0jppvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VuK0j5pvEe-icbtQAJpDJg" name="dateEstablished">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8e0cZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0kJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0kZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VuK0kppvEe-icbtQAJpDJg" name="LocalDate">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8RZEJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VuK0k5pvEe-icbtQAJpDJg" name="manufacturerId">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8fbgJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0lJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0lZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VuK0lppvEe-icbtQAJpDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VuK0l5pvEe-icbtQAJpDJg" name="CoasterManufacturer">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2orIJpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_VuK0mJpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_VuK0mZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0mppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VuK0m5pvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2pSNJpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VuK0nJpvEe-icbtQAJpDJg" name="CoasterManufacturer">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2oEEJpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VuK0nZpvEe-icbtQAJpDJg" name="name">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2pSMJpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VuK0nppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VuK0n5pvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VuK0oJpvEe-icbtQAJpDJg" name="id">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2pSMZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VuK0oZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VuK0oppvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VuK0o5pvEe-icbtQAJpDJg" name="validate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2p5QJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0pJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0pZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VuK0pppvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2p5QZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VuK0p5pvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VuK0qJpvEe-icbtQAJpDJg" name="equals">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8SAIJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VuK0qZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VuK0qppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VuK0q5pvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8SAIppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VuK0rJpvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VuK0rZpvEe-icbtQAJpDJg" name="other">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8SAIZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VuK0rppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VuK0r5pvEe-icbtQAJpDJg" name="CoasterManufacturer">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2oEEJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vu83qJpvEe-icbtQAJpDJg" comments="_VulEMJpvEe-icbtQAJpDJg" targetConnectionVisual="_Vu5NQJpvEe-icbtQAJpDJg" name="CoasterReview" associationsIn="_Vu8QkJpvEe-icbtQAJpDJg _Vu83oJpvEe-icbtQAJpDJg _VyZNMJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T2rHYJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_Vu83qZpvEe-icbtQAJpDJg" position="602.0,443.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vu83qppvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_Vu83q5pvEe-icbtQAJpDJg" name="title">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8fbgZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu83rJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83rZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_Vu83rppvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vu83r5pvEe-icbtQAJpDJg" name="reviewBody">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8fbgppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu83sJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83sZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_Vu83sppvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vu83s5pvEe-icbtQAJpDJg" name="rating">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gCkJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu83tJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83tZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_Vu83tppvEe-icbtQAJpDJg" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vu83t5pvEe-icbtQAJpDJg" name="reviewId">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gCkZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu83uJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83uZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_Vu83uppvEe-icbtQAJpDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vu83u5pvEe-icbtQAJpDJg" name="createdByUser">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gCkppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu83vJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83vZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_Vu83vppvEe-icbtQAJpDJg" name="User">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2zqQJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vu83v5pvEe-icbtQAJpDJg" name="validate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2s8kJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu83wJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83wZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vu83wppvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2s8kZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_Vu83w5pvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vu83xJpvEe-icbtQAJpDJg" name="CoasterReview">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8TOQJpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_Vu83xZpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_Vu83xppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu83x5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vu83yJpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1UZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_Vu83yZpvEe-icbtQAJpDJg" name="CoasterReview">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2rHYJpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Vu83yppvEe-icbtQAJpDJg" name="rating">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8TOQZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu83y5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu83zJpvEe-icbtQAJpDJg" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Vu83zZpvEe-icbtQAJpDJg" name="reviewId">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8TOQppvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu83zppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu83z5pvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Vu830JpvEe-icbtQAJpDJg" name="createdByUser">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8TOQ5pvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu830ZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu830ppvEe-icbtQAJpDJg" name="User">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2zqQJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Vu8305pvEe-icbtQAJpDJg" name="CoasterReview">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8T1UppvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_Vu831JpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_Vu831ZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu831ppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vu8315pvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1WppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_Vu832JpvEe-icbtQAJpDJg" name="CoasterReview">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2rHYJpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Vu832ZpvEe-icbtQAJpDJg" name="title">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1U5pvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu832ppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu8325pvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Vu833JpvEe-icbtQAJpDJg" name="reviewBody">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1VJpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu833ZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu833ppvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Vu8335pvEe-icbtQAJpDJg" name="rating">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1VZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu834JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu834ZpvEe-icbtQAJpDJg" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Vu834ppvEe-icbtQAJpDJg" name="reviewId">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1VppvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu8345pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu835JpvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Vu835ZpvEe-icbtQAJpDJg" name="createdByUser">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8T1V5pvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu835ppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu8355pvEe-icbtQAJpDJg" name="User">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2zqQJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Vu836JpvEe-icbtQAJpDJg" name="equals">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8UcYJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_Vu836ZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vu836ppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vu8365pvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8UcYppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_Vu837JpvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Vu837ZpvEe-icbtQAJpDJg" name="other">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8UcYZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vu837ppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vu8375pvEe-icbtQAJpDJg" name="CoasterReview">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2rHYJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VvrQYJpvEe-icbtQAJpDJg" comments="_VvN9YJpvEe-icbtQAJpDJg" targetConnectionVisual="_VvqCQJpvEe-icbtQAJpDJg" name="SearchQuery">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T2vY0JpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VvrQYZpvEe-icbtQAJpDJg" position="15.0,809.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VvrQYppvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_VvrQY5pvEe-icbtQAJpDJg" name="query">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gCk5pvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VvrQZJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VvrQZZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VvrQZppvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VvrQZ5pvEe-icbtQAJpDJg" name="SearchQuery">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2v_4JpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_VvrQaJpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_VvrQaZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VvrQappvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvrQa5pvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2v_45pvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VvrQbJpvEe-icbtQAJpDJg" name="SearchQuery">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2vY0JpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VvrQbZpvEe-icbtQAJpDJg" name="SearchQuery">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2wm8JpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_VvrQbppvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_VvrQb5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VvrQcJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvrQcZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2wm9JpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VvrQcppvEe-icbtQAJpDJg" name="SearchQuery">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2vY0JpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VvrQc5pvEe-icbtQAJpDJg" name="query">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2wm8ZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VvrQdJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VvrQdZpvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VvrQdppvEe-icbtQAJpDJg" name="validate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2wm9ZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VvrQd5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VvrQeJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VvrQeZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2wm9ppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VvrQeppvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VvrQe5pvEe-icbtQAJpDJg" name="equals">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8VDcJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VvrQfJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_Vvr3cJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vvr3cZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8VqgJpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_Vvr3cppvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Vvr3c5pvEe-icbtQAJpDJg" name="other">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8VDcZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_Vvr3dJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_Vvr3dZpvEe-icbtQAJpDJg" name="SearchQuery">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2vY0JpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VwaQOZpvEe-icbtQAJpDJg" comments="_Vv7vEJpvEe-icbtQAJpDJg" targetConnectionVisual="_VwYbAJpvEe-icbtQAJpDJg" name="SearchResult" associationsOut="_VwaQMJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T2x1EJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VwaQOppvEe-icbtQAJpDJg" position="143.0,81.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VwaQO5pvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_VwaQPJpvEe-icbtQAJpDJg" name="coasterList">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gpoJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VwaQPZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQPppvEe-icbtQAJpDJg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_VwaQP5pvEe-icbtQAJpDJg" name="Coaster">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T280MJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VwaQQJpvEe-icbtQAJpDJg" name="SearchResult">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2x1EZpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_VwaQQZpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_VwaQQppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQQ5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VwaQRJpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2ycIZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VwaQRZpvEe-icbtQAJpDJg" name="SearchResult">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2x1EJpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VwaQRppvEe-icbtQAJpDJg" name="validate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2ycIppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VwaQR5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQSJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VwaQSZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2ycI5pvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VwaQSppvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VwaQS5pvEe-icbtQAJpDJg" name="addCoaster">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8VqgZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VwaQTJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQTZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VwaQTppvEe-icbtQAJpDJg" name="c">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8VqgppvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VwaQT5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VwaQUJpvEe-icbtQAJpDJg" name="Coaster">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T280MJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VwaQUZpvEe-icbtQAJpDJg" name="equals">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8WRkJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VwaQUppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VwaQU5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VwaQVJpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8WRkppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VwaQVZpvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VwaQVppvEe-icbtQAJpDJg" name="other">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8WRkZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VwaQV5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VwaQWJpvEe-icbtQAJpDJg" name="SearchResult">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2x1EJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VxNhcJpvEe-icbtQAJpDJg" comments="_Vwqu4JpvEe-icbtQAJpDJg" targetConnectionVisual="_VxKeIJpvEe-icbtQAJpDJg" name="User" associationsOut="_Vu8QkJpvEe-icbtQAJpDJg _Vu83oJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T2zqQJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VxNhcZpvEe-icbtQAJpDJg" position="10.0,414.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VxNhcppvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_VxNhc5pvEe-icbtQAJpDJg" name="firstName">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8gpoppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhdJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhdZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VxNhdppvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxNhd5pvEe-icbtQAJpDJg" name="lastName">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8hQsJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNheJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNheZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VxNheppvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxNhe5pvEe-icbtQAJpDJg" name="age">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8hQsZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhfJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhfZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VxNhfppvEe-icbtQAJpDJg" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxNhf5pvEe-icbtQAJpDJg" name="id">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8hQsppvEe-icbtQAJpDJg"/>
+      <stereotypes xmi:id="_VxNhgJpvEe-icbtQAJpDJg" name="LegacyStyledElement">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8hQs5pvEe-icbtQAJpDJg"/>
+      </stereotypes>
+      <visibility xmi:id="_VxNhgZpvEe-icbtQAJpDJg" label="-"/>
+      <cardinality xmi:id="_VxNhgppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VxNhg5pvEe-icbtQAJpDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VxNhhJpvEe-icbtQAJpDJg" name="reviews">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8h3wJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhhZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhhppvEe-icbtQAJpDJg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_VxNhh5pvEe-icbtQAJpDJg" name="CoasterReview">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2rHYJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VxNhiJpvEe-icbtQAJpDJg" comments="_VxLFMJpvEe-icbtQAJpDJg" targetConnectionVisual="_VxLFMZpvEe-icbtQAJpDJg" name="User">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T204YJpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_VxNhiZpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_VxNhippvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhi5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxNhjJpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T204ZppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VxNhjZpvEe-icbtQAJpDJg" name="User">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2zqQJpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VxNhjppvEe-icbtQAJpDJg" name="firstName">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T204YZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhj5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhkJpvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VxNhkZpvEe-icbtQAJpDJg" name="lastName">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T204YppvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhkppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhk5pvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VxNhlJpvEe-icbtQAJpDJg" name="id">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T204Y5pvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhlZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhlppvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxNhl5pvEe-icbtQAJpDJg" comments="_VxLsQJpvEe-icbtQAJpDJg" targetConnectionVisual="_VxLsQZpvEe-icbtQAJpDJg" name="setFirstName">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T21fcJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhmJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhmZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VxNhmppvEe-icbtQAJpDJg" name="firstName">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T21fcZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhm5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhnJpvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxNhnZpvEe-icbtQAJpDJg" comments="_VxLsQppvEe-icbtQAJpDJg" targetConnectionVisual="_VxLsQ5pvEe-icbtQAJpDJg" name="setAge">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T21fcppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhnppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhn5pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VxNhoJpvEe-icbtQAJpDJg" name="age">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T21fc5pvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhoZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhoppvEe-icbtQAJpDJg" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxNho5pvEe-icbtQAJpDJg" comments="_VxMTUJpvEe-icbtQAJpDJg" targetConnectionVisual="_VxMTUZpvEe-icbtQAJpDJg" name="getUserId">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T21fdJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhpJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhpZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxNhpppvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T22GgJpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VxNhp5pvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VxNhqJpvEe-icbtQAJpDJg" comments="_VxMTUppvEe-icbtQAJpDJg" targetConnectionVisual="_VxMTU5pvEe-icbtQAJpDJg" name="setUserId">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T22GgZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhqZpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhqppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VxNhq5pvEe-icbtQAJpDJg" name="id">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T22GgppvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhrJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhrZpvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VxNhrppvEe-icbtQAJpDJg" comments="_VxMTVJpvEe-icbtQAJpDJg" targetConnectionVisual="_VxMTVZpvEe-icbtQAJpDJg" name="validate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T22tkJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhr5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhsJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxNhsZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T22tkZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VxNhsppvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VxNhs5pvEe-icbtQAJpDJg" comments="_VxM6YJpvEe-icbtQAJpDJg" targetConnectionVisual="_VxM6YZpvEe-icbtQAJpDJg" name="equals">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8W4oJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VxNhtJpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VxNhtZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VxNhtppvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8W4oppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VxNht5pvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VxNhuJpvEe-icbtQAJpDJg" name="u">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8W4oZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VxNhuZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VxNhuppvEe-icbtQAJpDJg" name="User">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2zqQJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VzZSx5pvEe-icbtQAJpDJg" comments="_VzFwwJpvEe-icbtQAJpDJg" targetConnectionVisual="_VzW2gJpvEe-icbtQAJpDJg" name="Coaster" associationsIn="_VxspoJpvEe-icbtQAJpDJg _VwaQMJpvEe-icbtQAJpDJg" associationsOut="_VyZNMJpvEe-icbtQAJpDJg">
+    <modelElement href="../../../../../CoasterReviewer.uml#_T280MJpvEe-icbtQAJpDJg"/>
+    <visualProperties xmi:id="_VzZSyJpvEe-icbtQAJpDJg" position="633.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VzZSyZpvEe-icbtQAJpDJg" label="+"/>
+    <attributes xmi:id="_VzZSyppvEe-icbtQAJpDJg" name="name">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8ie0JpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZSy5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZSzJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VzZSzZpvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzZSzppvEe-icbtQAJpDJg" name="description">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8ie0ZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZSz5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZS0JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VzZS0ZpvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzZS0ppvEe-icbtQAJpDJg" name="manufacturer">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8ie0ppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZS05pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ50JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VzZ50ZpvEe-icbtQAJpDJg" name="CoasterManufacturer">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2oEEJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzZ50ppvEe-icbtQAJpDJg" name="yearCreated">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8ie05pvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ505pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ51JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VzZ51ZpvEe-icbtQAJpDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzZ51ppvEe-icbtQAJpDJg" name="coasterId">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8jF4JpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ515pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ52JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VzZ52ZpvEe-icbtQAJpDJg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzZ52ppvEe-icbtQAJpDJg" name="imagePath">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8jF4ZpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ525pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ53JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <type xmi:id="_VzZ53ZpvEe-icbtQAJpDJg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VzZ53ppvEe-icbtQAJpDJg" name="reviews">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8jF4ppvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ535pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ54JpvEe-icbtQAJpDJg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_VzZ54ZpvEe-icbtQAJpDJg" name="CoasterReview">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2rHYJpvEe-icbtQAJpDJg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VzZ54ppvEe-icbtQAJpDJg" name="calculateAverageRating">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2-CUJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ545pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ55JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzZ55ZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2-CUZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VzZ55ppvEe-icbtQAJpDJg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VzZ555pvEe-icbtQAJpDJg" name="validate">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T2-pYJpvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ56JpvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ56ZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzZ56ppvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T2-pYZpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VzZ565pvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VzZ57JpvEe-icbtQAJpDJg" name="Coaster">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8ZU4JpvEe-icbtQAJpDJg"/>
+      <keywords xmi:id="_VzZ57ZpvEe-icbtQAJpDJg" keyword="create"/>
+      <visibility xmi:id="_VzZ57ppvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ575pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzZ58JpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8Z79ppvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VzZ58ZpvEe-icbtQAJpDJg" name="Coaster">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T280MJpvEe-icbtQAJpDJg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VzZ58ppvEe-icbtQAJpDJg" name="name">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8Z78JpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VzZ585pvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VzZ59JpvEe-icbtQAJpDJg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzZ59ZpvEe-icbtQAJpDJg" name="manufacturer">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8Z78ZpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VzZ59ppvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VzZ595pvEe-icbtQAJpDJg" name="CoasterManufacturer">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T2oEEJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzZ5-JpvEe-icbtQAJpDJg" name="yearCreated">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8Z78ppvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VzZ5-ZpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VzZ5-ppvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VzZ5-5pvEe-icbtQAJpDJg" name="coasterId">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8Z785pvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VzZ5_JpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VzZ5_ZpvEe-icbtQAJpDJg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VzZ5_ppvEe-icbtQAJpDJg" name="equals">
+      <modelElement href="../../../../../CoasterReviewer.uml#_T8Z795pvEe-icbtQAJpDJg"/>
+      <visibility xmi:id="_VzZ5_5pvEe-icbtQAJpDJg" label="+"/>
+      <cardinality xmi:id="_VzZ6AJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VzZ6AZpvEe-icbtQAJpDJg">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8ajAJpvEe-icbtQAJpDJg"/>
+        <type xmi:id="_VzZ6AppvEe-icbtQAJpDJg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VzZ6A5pvEe-icbtQAJpDJg" name="other">
+        <modelElement href="../../../../../CoasterReviewer.uml#_T8Z7-JpvEe-icbtQAJpDJg"/>
+        <cardinality xmi:id="_VzZ6BJpvEe-icbtQAJpDJg" label="1" max="1" min="1"/>
+        <type xmi:id="_VzZ6BZpvEe-icbtQAJpDJg" name="Coaster">
+          <modelElement href="../../../../../CoasterReviewer.uml#_T280MJpvEe-icbtQAJpDJg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
